@@ -1,0 +1,12 @@
+Source: ros-indigo-rqt-wrapper
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://www.ros.org/wiki/rqt_wrapper
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rqt-wrapper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-python-qt-binding, ros-indigo-qt-gui-py-common, ros-indigo-rocon-console, ros-indigo-rocon-python-utils, ros-indigo-rosgraph, ros-indigo-rqt-gui, ros-indigo-rqt-gui-py, ros-indigo-rqt-plot, ros-indigo-rqt-reconfigure, ros-indigo-rqt-robot-monitor
+Description: A wrapper for keeping rqt programs alive.
